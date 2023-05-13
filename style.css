@@ -1,0 +1,74 @@
+a.h1 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    margin: 0 0 5px;
+    font-size: 28px;
+  }
+  
+  body {
+    background: url('photo.jpg');
+    font-family: sans-serif;
+  }
+  
+  .container {
+    max-width: 400px;
+    background-color: rgba(236, 228, 228, 0.3) ;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 60px  ;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.01);
+  }
+  
+  .city {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    border-bottom: 1px dashed gray;
+    padding: 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .city:last-child {
+    border-bottom: none;
+  }
+  
+  .time {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .time small {
+    font-size: 18px;
+    line-height: 36px;
+    vertical-align: middle;
+  }
+  
+  .date {
+    opacity: 0.7;
+    margin-bottom: 15px;
+  }
+  
+  select {
+    display: block;
+    border-radius: 5%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  
+  footer {
+    text-align: left;
+    margin-left: 25px;
+    font-size: 12px;
+    color: rgba(255, 250, 250, 0.9);
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+  }
